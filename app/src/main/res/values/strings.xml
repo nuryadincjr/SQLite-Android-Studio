@@ -51,4 +51,23 @@
         <item>Commonly referred to as A.C. Milan or simply Milan, is a professional football club in Milan, Italy, founded in 1899. The club has spent its entire history, with the exception of the 1980–81 and 1982–83 seasons, in the top flight of Italian football, known as Serie A since 1929–30.</item>
         <item>Arsenal Football Club is a professional football club based in Islington, London, England, that plays in the Premier League, the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, two League Cups, the League Centenary Trophy, 15 FA Community Shields, one UEFA Cup Winners\' Cup and one Inter-Cities Fairs Cup.</item>
     </string-array>
+
+    <!--    add new string in the sql project-->
+    <string name="mahasiswa_menu">Mahasiswa</string>
+    <string name="nim">NPM</string>
+    <string name="nama">NAMA</string>
+    <string name="prodi">PRODI</string>
+
+    <string name="your_npm">NPM Anda</string>
+    <string name="your_name">Nama Anda</string>
+    <string name="add">Tambah</string>
+
+    <string-array name="daftar_prodi">
+        <item>S1-Desain Komunikasi Visual</item>
+        <item>S1-Teknik Industri</item>
+        <item>S1-Teknik Informatika</item>
+        <item>S1-Bisnis Digital</item>
+    </string-array>
+
+
 </resources>

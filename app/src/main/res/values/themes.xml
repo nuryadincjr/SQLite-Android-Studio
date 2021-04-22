@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.LatihanFragmant" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@android:color/darker_gray</item>
-        <item name="colorPrimaryVariant">#1B1B1B</item>
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryVariant">#B36C03</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

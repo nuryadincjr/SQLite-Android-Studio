@@ -14,7 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    BottomNavigationView bottomNavigationItemView;
+    private BottomNavigationView bottomNavigationItemView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.menu_about:
                         getFragmentPage(new AboutFragment());
+                        break;
+                    case R.id.menu_mahasiswa:
+                        getFragmentPage(new MahasiswaFragment());
                         break;
                 }
                 return true;

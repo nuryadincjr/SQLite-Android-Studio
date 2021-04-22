@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LatihanFragmant">
+        <activity android:name=".AddMahasiswaActivity"></activity>
         <activity android:name=".DescriptionActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
