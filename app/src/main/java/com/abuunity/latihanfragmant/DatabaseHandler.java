@@ -45,7 +45,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public void save(Mahasiswa mahasiswa) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(KEY_NPM, mahasiswa.getNim());
+        values.put(KEY_NPM, mahasiswa.getNpm());
         values.put(KEY_NAMA, mahasiswa.getNama());
         values.put(KEY_PRODI, mahasiswa.getProdi());
         db.insert(TABLE_MAHASISWA,null,values);
@@ -56,7 +56,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         SQLiteDatabase db;
         db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(KEY_NPM, mahasiswa.getNim());
+        values.put(KEY_NPM, mahasiswa.getNpm());
         values.put(KEY_NAMA, mahasiswa.getNama());
         values.put(KEY_PRODI, mahasiswa.getProdi());
         db.update(TABLE_MAHASISWA,values,KEY_ID+"=?",
@@ -68,10 +68,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     public void delete(String id) {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete(DATABASE_NAME, KEY_ID+"=?",
-                new String[] {
-                        id
-        });
+        db.delete(TABLE_MAHASISWA, KEY_ID+"=?",
+                new String[] {id});
         db.close();
     }
 
@@ -85,7 +83,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
             do {
                 Mahasiswa mahasiswa = new Mahasiswa();
                 mahasiswa.setId(Integer.valueOf(cursor.getString(0)));
-                mahasiswa.setNim(cursor.getString(1));
+                mahasiswa.setNpm(cursor.getString(1));
                 mahasiswa.setNama(cursor.getString(2));
                 mahasiswa.setProdi(cursor.getString(3));
 

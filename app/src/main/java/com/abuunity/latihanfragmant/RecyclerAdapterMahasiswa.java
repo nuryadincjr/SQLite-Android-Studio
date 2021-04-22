@@ -30,7 +30,7 @@ public class RecyclerAdapterMahasiswa extends RecyclerView.Adapter<RecyclerAdapt
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         int no = (position+1);
         holder.textNo.setText(String.valueOf(no));
-        holder.textNpm.setText(mahasiswaArrayList.get(position).getNim());
+        holder.textNpm.setText(mahasiswaArrayList.get(position).getNpm());
         holder.textNama.setText(mahasiswaArrayList.get(position).getNama());
         holder.textProdi.setText(mahasiswaArrayList.get(position).getProdi());
     }

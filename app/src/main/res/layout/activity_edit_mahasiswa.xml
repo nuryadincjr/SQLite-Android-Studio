@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddMahasiswaActivity">
+    tools:context=".EditMahasiswaActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,11 +32,12 @@
                     android:layout_height="wrap_content"
                     android:background="#FFFFFF"
                     android:hint="@string/npm_anda" />
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/text_input_nama"
@@ -44,7 +45,6 @@
                     android:layout_height="wrap_content"
                     android:background="#FFFFFF"
                     android:hint="@string/nama_anda" />
-
             </com.google.android.material.textfield.TextInputLayout>
 
             <Spinner
@@ -53,10 +53,11 @@
                 android:layout_height="45dp" />
 
             <Button
-                android:id="@+id/btn_tambah"
+                android:id="@+id/btn_update"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tambah" />
+                android:text="@string/update" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

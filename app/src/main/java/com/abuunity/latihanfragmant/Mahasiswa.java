@@ -2,20 +2,20 @@ package com.abuunity.latihanfragmant;
 
 public class Mahasiswa {
     private int id;
-    private String nim, nama, prodi;
+    private String npm, nama, prodi;
 
     public Mahasiswa() {
     }
 
-    public Mahasiswa(String nim, String nama, String prodi) {
-        this.nim = nim;
+    public Mahasiswa(String npm, String nama, String prodi) {
+        this.npm = npm;
         this.nama = nama;
         this.prodi = prodi;
     }
 
-    public Mahasiswa(int id, String nim, String nama, String prodi) {
+    public Mahasiswa(int id, String npm, String nama, String prodi) {
         this.id = id;
-        this.nim = nim;
+        this.npm = npm;
         this.nama = nama;
         this.prodi = prodi;
     }
@@ -25,11 +25,11 @@ public class Mahasiswa {
     public void setId(int id) {
         this.id = id;
     }
-    public String getNim() {
-        return nim;
+    public String getNpm() {
+        return npm;
     }
-    public void setNim(String nim) {
-        this.nim = nim;
+    public void setNpm(String npm) {
+        this.npm = npm;
     }
     public String getNama() {
         return nama;
