@@ -33,6 +33,9 @@ public class RecyclerAdapterMahasiswa extends RecyclerView.Adapter<RecyclerAdapt
         holder.textNpm.setText(mahasiswaArrayList.get(position).getNpm());
         holder.textNama.setText(mahasiswaArrayList.get(position).getNama());
         holder.textProdi.setText(mahasiswaArrayList.get(position).getProdi());
+
+        // menambahkan holder textFakultas dari class ViewHolder
+        holder.textFakultas.setText(mahasiswaArrayList.get(position).getFakultas());
     }
 
     @Override
@@ -45,13 +48,20 @@ public class RecyclerAdapterMahasiswa extends RecyclerView.Adapter<RecyclerAdapt
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-        TextView textNo, textNpm, textNama, textProdi;
+
+        // menambahkan inisialisasi textFakultas
+        TextView textNo, textNpm, textNama, textProdi, textFakultas;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textNo = itemView.findViewById(R.id.text_no);
             textNpm = itemView.findViewById(R.id.text_nim);
             textNama = itemView.findViewById(R.id.text_nama);
+
             textProdi = itemView.findViewById(R.id.text_prodi);
+
+            // inisialisasi variabel
+            textFakultas = itemView.findViewById(R.id.text_fakultas);
+            // akhir inisialisasi
 
             itemView.setOnClickListener(this);
         }

@@ -59,18 +59,6 @@ public class MahasiswaFragment extends Fragment {
                 refreshLayout.setRefreshing(false);
             }
         });
-
-//        recyclerAdapterMahasiswa= new RecyclerAdapterMahasiswa(mahasiswaArrayList);
-//        RecyclerView.LayoutManager layoutManager = new
-//                LinearLayoutManager(getContext());
-//        recyclerViewMahasiswa.setLayoutManager(layoutManager);
-//        recyclerViewMahasiswa.setAdapter(recyclerAdapterMahasiswa);
-//        recyclerAdapterMahasiswa.setItemClickListener(new ItemClickListener() {
-//            @Override
-//            public void onClick(View view, int position) {
-//                openMenuEdit(view,position);
-//            }
-//        });
         return view;
     }
 
@@ -103,6 +91,11 @@ public class MahasiswaFragment extends Fragment {
                     intent.putExtra("NPM",mahasiswaArrayList.get(position).getNpm());
                     intent.putExtra("NAMA",mahasiswaArrayList.get(position).getNama());
                     intent.putExtra("PRODI",mahasiswaArrayList.get(position).getProdi());
+
+                    // menambahkan intent untuk FAKUTAS
+                    intent.putExtra("FAKULTAS",mahasiswaArrayList.get(position).getFakultas());
+                    // akhir modifikasi
+
                     startActivity(intent);
                     break;
                 case R.id.navigation_delete:

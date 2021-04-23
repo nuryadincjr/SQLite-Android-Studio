@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
@@ -17,7 +18,7 @@
             android:layout_marginStart="8dp"
             android:text="@string/no"
             android:textColor="@color/purple_200"
-            android:textSize="50sp"
+            android:textSize="65sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +40,19 @@
             android:layout_marginTop="2dp"
             android:text="@string/nama"
             app:layout_constraintStart_toEndOf="@+id/text_no"
-            app:layout_constraintTop_toBottomOf="@id/text_nim" />
+            app:layout_constraintTop_toBottomOf="@+id/text_nim" />
+
+        <!-- menambahkan textView untuk menampung nama fakultas -->
+        <TextView
+            android:id="@+id/text_fakultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/fakultas"
+            app:layout_constraintStart_toEndOf="@+id/text_no"
+            app:layout_constraintTop_toBottomOf="@+id/text_nama" />
+        <!-- akhir text view yang ditambahkan -->
 
         <TextView
             android:id="@+id/text_prodi"
@@ -49,6 +62,6 @@
             android:layout_marginTop="2dp"
             android:text="@string/prodi"
             app:layout_constraintStart_toEndOf="@+id/text_no"
-            app:layout_constraintTop_toBottomOf="@+id/text_nama" />
+            app:layout_constraintTop_toBottomOf="@+id/text_fakultas" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

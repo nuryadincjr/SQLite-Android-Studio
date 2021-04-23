@@ -47,6 +47,13 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!-- Menambahkan satu spinner sp_fakultas untuk menampung dataftar fakultas -->
+            <Spinner
+                android:id="@+id/sp_fakultas"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+            <!-- akhir spinner yang ditambahkan -->
+
             <Spinner
                 android:id="@+id/sp_prodi"
                 android:layout_width="match_parent"

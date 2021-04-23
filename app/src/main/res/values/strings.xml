@@ -63,13 +63,92 @@
     <string name="tambah">Tambah</string>
     <string name="update">Update</string>
 
+    <!--  biarkanbaris kode sebelumnya  -->
 
-    <string-array name="daftar_prodi">
-        <item>S1-Desain Komunikasi Visual</item>
-        <item>S1-Teknik Industri</item>
-        <item>S1-Teknik Informatika</item>
-        <item>S1-Bisnis Digital</item>
+    <string name="fakultas">FAKULTAS</string>
+
+    <!--  Menambahkan Fakultas  -->
+    <string-array name="daftar_fakultas">
+        <item>~Pilih Fakultas~</item>
+        <item>Fakultas Dirasat Islamiyah</item>
+        <item>Fakultas Ekonom</item>
+        <item>Fakultas Hukum</item>
+        <item>Fakultas Ilmu Keperawatan</item>
+        <item>Fakultas Ilmu Pendidikan</item>
+        <item>Fakultas Ilmu Politik</item>
+        <item>Fakultas Kedokteran</item>
+        <item>Fakultas Pariwisata dan Perhotelan</item>
+        <item>Fakultas Sastra</item>
+        <item>Fakultas Seni Rupa dan Desain</item>
+        <item>Fakultas Matematika dan Ilmu Pengetahuan Alam</item>
+        <item>Fakultas Teknik</item>
+        <item>Fakultas Ushuluddin</item>
     </string-array>
 
+    <!--  menambahkan item prodi  -->
+    <string-array name="daftar_prodi">
+        <item>~Pilih Program Studi~</item>
+        <item>S1-Agama dan Filsafat</item>
+        <item>S1-Akuntansi</item>
+        <item>S1-Aqidah dan Filsafat</item>
+        <item>S1-Bisnis Digital</item>
+        <item>S1-Fashion</item>
+        <item>S1-Desain Grafis</item>
+        <item>S1-Desain Interior</item>
+        <item>S1-Desain Komunikasi Visual</item>
+        <item>S1-Desain Produk</item>
+        <item>S1-Dirasat Islamiyah</item>
+        <item>S1-Fisika</item>
+        <item>S1-Geofisika</item>
+        <item>S1-Ilmu Al-Quran dan Tafsir</item>
+        <item>S1-Ilmu Ekonomi</item>
+        <item>S1-Ilmu Hadits</item>
+        <item>S1-Ilmu Hukum</item>
+        <item>S1-Ilmu Politik</item>
+        <item>S1-Ilmu Sejarah</item>
+        <item>S1-Keperawatan</item>
+        <item>S1-Kimia</item>
+        <item>S1-Kriya Seni</item>
+        <item>S1-Manajemen</item>
+        <item>S1-Manajemen Perhotelan</item>
+        <item>S1-Matematika</item>
+        <item>S1-Pendidikan Bahasa Arab</item>
+        <item>S1-Pendidikan Bahasa dan Sastra Indonesia</item>
+        <item>S1-Pendidikan Bahasa Inggris</item>
+        <item>S1-Pendidikan Bahasa Jepang</item>
+        <item>S1-Pendidikan Bahasa Perancis</item>
+        <item>S1-Pendidikan Biologi</item>
+        <item>S1-Pendidikan Fisika</item>
+        <item>S1-Pendidikan Ilmu Pengetahuan Sosial</item>
+        <item>S1-Pendidikan Kedokteran</item>
+        <item>S1-Pendidikan Kimia</item>
+        <item>S1-Pendidikan Luar Biasa</item>
+        <item>S1-Pendidikan Matematika</item>
+        <item>S1-Pendidikan Tata Rias dan Kecantikan</item>
+        <item>S1-Pendidikan Teknik Bangunan</item>
+        <item>S1-Sastra Arab</item>
+        <item>S1-Sastra Belanda</item>
+        <item>S1-Sastra Indonesia</item>
+        <item>S1-Sastra Inggris</item>
+        <item>S1-Sastra Jepang</item>
+        <item>S1-Sastra Jerman</item>
+        <item>S1-Seni Rupa Murni</item>
+        <item>S1-Sosiologi Agama</item>
+        <item>S1-Studi Agama-Agama</item>
+        <item>S1-Tasawuf Psikoterapi</item>
+        <item>S1-Tata Boga</item>
+        <item>S1-Tata Busana</item>
+        <item>S1-Teknik Elektro</item>
+        <item>S1-Teknik Fisika</item>
+        <item>S1-Teknik Geodesi</item>
+        <item>S1-Teknik Industri</item>
+        <item>S1-Teknik Informatika</item>
+        <item>S1-Teknik Kelautan</item>
+        <item>S1-Teknik Kimia</item>
+        <item>S1-Teknik Lingkungan</item>
+        <item>S1-Teknik Mesin</item>
+        <item>S1-Teknik Metalurgi dan Material</item>
+        <item>S1-Teknik Sipil</item>
+    </string-array>
 
 </resources>
