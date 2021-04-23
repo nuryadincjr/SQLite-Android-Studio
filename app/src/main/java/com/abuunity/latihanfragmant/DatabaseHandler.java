@@ -12,7 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseHandler extends SQLiteOpenHelper {
-    
+
+    //ubah versi database ke versi 2
     private static final int DATABASE_VERSION=2;
     private static final String DATABASE_NAME="MahasiswaDB";
     private static final String TABLE_MAHASISWA="tb_mahasiswa";
