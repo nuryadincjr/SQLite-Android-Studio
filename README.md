@@ -1,4 +1,4 @@
-# /SQLite Android Studio
+# SQLite Android Studio
 
 Implementation a SQLiteOpenHelper Android Studio
 
