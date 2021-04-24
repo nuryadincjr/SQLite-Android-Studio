@@ -45,9 +45,9 @@ public class MahasiswaFragment extends Fragment {
 
         refreshLayout = view.findViewById(R.id.swipe_refresh);
         refreshLayout.setColorSchemeResources(
-                android.R.color.holo_blue_bright,
+                android.R.color.holo_orange_dark,
                 android.R.color.holo_green_light,
-                android.R.color.holo_orange_light,
+                android.R.color.holo_blue_bright,
                 android.R.color.holo_red_light
                 );
 
