@@ -2,21 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.abuunity.latihanfragmant">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LatihanFragmant">
-        <activity android:name=".EditMahasiswaActivity"></activity>
-        <activity android:name=".AddMahasiswaActivity" />
-        <activity android:name=".DescriptionActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.abuunity.latihanfragmant.MainActivity" />
-        </activity>
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.ShareOn">
+        <activity android:name=".activity.EditPostsActivity" />
+        <activity android:name=".activity.DetailPostActivity" />
+        <activity android:name=".activity.EditProfileActivity" />
+        <activity android:name=".activity.CommentActivity" />
+        <activity android:name=".activity.PostActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.LogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

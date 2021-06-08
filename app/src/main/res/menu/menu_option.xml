@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/navigation_add"
-        android:title="Add" />
+        android:id="@+id/share"
+        android:title="@string/shareout" />
+    <item
+        android:id="@+id/laporkan"
+        android:title="@string/laporkan" />
 </menu>

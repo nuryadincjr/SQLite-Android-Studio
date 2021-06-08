@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Latihan Recyclerview</string>
+    <string name="app_name">ShareOn</string>
     <string name="home_menu">Home</string>
     <string name="favorite_menu">Favorit</string>
     <string name="about_menu">About</string>
@@ -14,7 +14,7 @@
     <!--   Recyclerview     -->
     <string name="cont_desc_logo">Logo</string>
     <string name="no">NO</string>
-    <string name="team">Team</string>
+    <string name="oldTeam">Team</string>
     <string name="text_desc">Description Text</string>
     <string name="todo_img">Description Image</string>
 
@@ -43,8 +43,8 @@
 
     <string-array name="club_detail">
         <item>Barcelona is one of the most widely supported teams in the world, and the club has one of the largest social media following in the world among sports teams. Barcelona players have won a record number of Ballon d\'Or awards (11), with recipients including Johan Cruyff, as well as a record number of FIFA World Player of the Year awards (7), with winners including Ronaldo, Romario, Ronaldinho and Rivaldo.</item>
-        <item>Founded on 6 March 1902 as the Madrid Football Club, the club has traditionally worn a white home kit since inception. The word real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The team has played its home matches in the 81,044-capacity Santiago Bernabéu Stadium in downtown Madrid since 1947.</item>
-        <item>FCB, Bayern Munich, or FC Bayern, is a German sports club based in Munich, Bavaria (Bayern). It is best known for its professional football team, which plays in the Bundesliga, the top tier of the German football league system, and is the most successful club in German football history, having won a record 28 national titles and 18 national cups.</item>
+        <item>Founded on 6 March 1902 as the Madrid Football Club, the club has traditionally worn a white home kit since inception. The word real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The oldTeam has played its home matches in the 81,044-capacity Santiago Bernabéu Stadium in downtown Madrid since 1947.</item>
+        <item>FCB, Bayern Munich, or FC Bayern, is a German sports club based in Munich, Bavaria (Bayern). It is best known for its professional football oldTeam, which plays in the Bundesliga, the top tier of the German football league system, and is the most successful club in German football history, having won a record 28 national titles and 18 national cups.</item>
         <item>Commonly known as City, is a football club in Manchester, England. Founded in 1880 as St. Mark\'s (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club\'s home ground is the City of Manchester Stadium in east Manchester, to which it moved in 2003, having played at Maine Road since 1923.</item>
         <item>Commonly known as Man. United or simply United, is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.</item>
         <item>Chelsea Football Club is a professional football club in London, England, that competes in the Premier League. Founded in 1905, the club\'s home ground since then has been Stamford Bridge.</item>
@@ -150,5 +150,90 @@
         <item>S1-Teknik Metalurgi dan Material</item>
         <item>S1-Teknik Sipil</item>
     </string-array>
+
+    <!-- added -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_icon">iamge icon</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <string name="welcome_to_shareon">Welcome to ShareOn</string>
+    <string name="register_to_shareon">Register to ShareOn</string>
+    <string name="login_to_shareon">Login to ShareOn</string>
+
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="already_a_user_login">Already a user? Login</string>
+    <string name="new_to_shareon_register">New to ShareOn? Register</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="fragment_home">Home Fragment</string>
+    <string name="fragment_search">Search Fragment</string>
+    <string name="fragment_notification">Notification Fragment</string>
+    <string name="fragment_profile">Profile Fragment</string>
+    <string name="close">close</string>
+    <string name="share">SHARE</string>
+    <string name="image_post">image post</string>
+    <string name="description">Description</string>
+    <string name="search_user_or_hash_tag_post">Search user or hash tag post</string>
+    <string name="follow">Follow</string>
+    <string name="textProfilMessage">Please set your name and an optional profil image</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="share_your_experiences_and_gain_knowledge">Share your experiences and gain knowledge</string>
+    <string name="tag">#tag</string>
+    <string name="users">Users</string>
+    <string name="hash_tags">Hash Tags</string>
+    <string name="posts">Posts</string>
+    <string name="postss">POSTS</string>
+    <string name="posts_no">0</string>
+    <string name="search_a_new_knowledge">Search a new knowledge</string>
+    <string name="like">0</string>
+    <string name="comment">0</string>
+    <string name="save">save</string>
+    <string name="more">more</string>
+    <string name="comment_add">Add a relevant comment</string>
+    <string name="nav_bar">nav bar</string>
+    <string name="posts_count">POSTS</string>
+    <string name="followers_count">FOLLOWERS</string>
+    <string name="following_count">FOLLOWING</string>
+    <string name="following">following</string>
+    <string name="bio">Bio</string>
+    <string name="may_post">May post</string>
+    <string name="post_save">Post Save</string>
+    <string name="inspirations">Inspirations</string>
+    <string name="saves">SAVES</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_post">Detail post</string>
+    <string name="title">Title</string>
+    <string name="drag_tool">drag tool</string>
+    <string name="tools">Tools</string>
+    <string name="tools_and_materials">Tools and Materials</string>
+    <string name="new_tools">New tools</string>
+    <string name="steps">Steps</string>
+    <string name="new_steps">New Steps</string>
+    <string name="delete">delete</string>
+    <string name="write_down_the_tools_or_materials_you_use">Write down the tools or materials you use.</string>
+    <string name="remove">remove</string>
+    <string name="_0_64">0/64</string>
+    <string name="_0_500">0/500</string>
+    <string name="nav_edit">edit</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="save_edit">SAVE</string>
+    <string name="add">add</string>
+    <string name="shareout">share</string>
+    <string name="laporkan">laporkan</string>
+    <string name="selengkapnya">Lihat cara pembuatan…</string>
+    <string name="profile_change">Profile Change</string>
+    <string name="update_your_profile_for_a_better_experience">Update your profile for a better experience</string>
 
 </resources>

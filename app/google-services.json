@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588971649347",
+    "project_id": "nuryadin-abutani",
+    "storage_bucket": "nuryadin-abutani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588971649347:android:f6ff4969948f96d2ac67f6",
+        "android_client_info": {
+          "package_name": "com.abuunity.Recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588971649347-73tdp4srr8o19h6q6jicg1avsb4agqfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Sx95Iel5LZ9bE0q0K9A4aw8j-hHioW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588971649347-73tdp4srr8o19h6q6jicg1avsb4agqfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

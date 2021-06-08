@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/index_no"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:background="@drawable/rounded_1in"
+                        android:backgroundTint="@color/colorPrimarySoft"
+                        android:gravity="center"
+                        android:text="@string/no" />
+
+                    <ImageView
+                        android:id="@+id/image_drag"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:contentDescription="@string/drag_tool"
+                        app:srcCompat="@drawable/ic_menu" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/input_steps"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_01in"
+                    android:backgroundTint="@color/colorPrimarySoft"
+                    android:hint="@string/steps"
+                    android:maxLength="500"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:justificationMode="inter_word"/>
+
+                <ImageView
+                    android:id="@+id/image_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/more"
+                    android:paddingTop="12dp"
+                    app:srcCompat="@drawable/ic_more" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image_steps"
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_01in"
+                    android:backgroundTint="@color/colorPrimarySoft"
+                    android:contentDescription="@string/image_post"
+                    app:srcCompat="@drawable/ic_photo" />
+
+                <TextView
+                    android:id="@+id/input_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="27dp"
+                    android:text="@string/_0_500"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
